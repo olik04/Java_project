@@ -1,0 +1,35 @@
+startNewDay|01-Jan-2022
+
+hire|Bob|30
+hire|John|30
+hire|Grace|30
+
+setupTeam|Customer Relationship Team|Bob 
+setupTeam|Strategic Planning Team|John
+
+startNewDay|01-Feb-2022
+setupTeam|Clerical Support Team|Grace
+
+listTeams
+
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+undo
+
+listTeams
+
+redo
+redo
+redo
+redo
+redo
+listTeams
+
+setupTeam|Strategic Planning Team|Grace
+listTeams
+redo
